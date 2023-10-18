@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define the overall styles with dark theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background-color: #222;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+nav {
+    background-color: #111;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+section {
+    margin: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* Define portfolio item styles */
+.portfolio-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+/* Style the contact section with dark theme */
+#contact {
+    background-color: #111;
+    color: #ffffff;
+    padding: 40px 0;
+}
